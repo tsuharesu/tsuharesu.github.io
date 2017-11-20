@@ -1,0 +1,19 @@
+---
+title: 'Trabalhar fora 01: primeiras ideias'
+category: personal
+---
+No começo de 2014, ali por volta de Fevereiro, uma ideia começou a se fixar na minha cabeça: eu quero sair do país. No começo não era uma ideia definitiva, era apenas aquele grande sonho de conhecer novas culturas, pessoas diferentes, testar o inglês. Mas conforme o tempo foi passando eu comecei a olhar para essa ideia como um objetivo.
+
+Vários amigos relatavam essas experiências de ter saído do país, mesmo que temporariamente, e como isso os ajudou. Como eles ficaram felizes com esse tempo off, só para eles; várias histórias divertidas de serem contadas, coisas novas e singulares de cada um. O Deco fez um mochilão com o avô pela Europa, dormia em trens... O Dukão além da Europa tinha passado alguns meses na Austrália estudando (e ainda gravou um dos AndroidCasts mais engraçados, aquele da "babuína")... nesse mesmo 2014 o Lucas Rosada (amigo que foi meu "orientador" na PTInovação) conseguiu um emprego na Amazon CA. São pequenas histórias que me fizeram pensar "Hey, eu também posso sair daqui".
+
+Nesse tempo eu estava terminando minha segunda faculdade, estava em um emprego super divertido (estava mexendo com Rails até então), meu relacionamento estava super tranquilo. Ou seja, era o momento perfeito para não mexer em nada. Mas esse não sou eu. Eu sou a pessoa que quando tudo está calmo joga a pedra no lago. E também sou jovem (23 anos na época), tenho ambições e planos para meu futuro e trabalho em uma área que tem empregos em todos os lugares. E pensando analiticamente não tem uma melhor época para apostar nessa mudança do que quando se é jovem e pode voltar para a família se tudo der errado.
+
+Conforme eu fui planejando minha primeira internacional (que ia fazer no final de 2014) também fui preparando o pessoal para a possibilidade de me mudar. Falei com a Rita (minha namorada), com minha mãe, meu irmão e então falei com o Falcão (meu líder lá na Intelie). Os sentimentos foram bastante mistos, tanto por parte deles como pela minha. Eu não sabia se era isso realmente que eu queria, mas sabia que eu queria tentar. Minha família ficou feliz por eu tentar, mas triste se eu realmente fosse deixá-los (isso é ainda mais difícil para mim e para meu irmão, que somos muito ligados); a Rita ficou muito feliz, ao mesmo tempo que tentava esconder a tristeza de ser deixada; e o Falcão me disse algumas frases de "segue em frente se é isso que quer" e algumas de "saiba que não vai ser fácil sair daqui, porque tem muita gente boa por aí". E foi nesse vai não vai que eu comecei minha busca. Isso já era quase em Junho.
+
+Uma outra ideia que sempre me deixou dividido era entre procurar um emprego por aqui, fazer as entrevistas e depois me mudar ou ir de turista para outro país e começar a procurar emprego lá. A segunda alternativa me pareceu muito difícil pois eu estaria em um país diferente, sem suporte, sem trabalho e sem nenhuma ideia de como fazer esse networking para conseguir um emprego. Iria me sentir um ilegal fazendo loucuras para ter o que comer. A primeira alternativa se mostrou mais inteligente. E principalmente na minha área de trabalho (desenvolvedor de software) as oportunidades são bem diferentes do convencional: o online é parte do dia a dia. Eu não precisava estar em  outro país para fazer um entrevista, eu podia fazer por Skype/Hangouts. Então optei por continuar com minha vida como ela estava e paralelamente ir procurando empregos e fazendo entrevistas.
+
+### Outros posts da série:
+* [Trabalhar fora 02: países e intercâmbio]({{ site.baseurl }}{% post_url 2015-07-14-trabalhar-fora-02 %})
+* [Trabalhar fora 03: preparativos, buscando vagas]({{ site.baseurl }}{% post_url 2015-07-24-trabalhar-fora-03 %})
+* [Trabalhar fora 04: entrevistas e fracassos]({{ site.baseurl }}{% post_url 2015-08-04-trabalhar-fora-04 %})
+* [Trabalhar fora 05: Metalab]({{ site.baseurl }}{% post_url 2015-11-21-trabalhar-fora-05 %})

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<a href="/"><-- Go Back</a>
+
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
+
+<div class="content">
+  {{ content }}
+</div>
+
+<hr />
+Share: <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">twitter</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">facebook</a>
+<br />
+<small>Created: {{ page.date | date: "%F" }}</small>
+<hr />
+
+{% include disqus_comments.html %}
