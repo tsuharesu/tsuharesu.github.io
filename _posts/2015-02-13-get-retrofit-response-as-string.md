@@ -26,8 +26,9 @@ Response<ResponseBody> response = example.getBody().execute();
 response.body().string()
 {% endhighlight %}
 
-### Method 2
-Use the new `ConverterFactories`. This has more code, though to me it is better architecture wise. Copy `ToStringConverterFactory` to your app. You can find it [here](https://github.com/square/retrofit/blob/07d1f3de5e0eb11fb537464bd14fdbacfc9e55a7/retrofit/src/test/java/retrofit/ToStringConverterFactory.java).
+### Method 2 (preferred)
+
+Retrofit launched a [`ScalarConverter`](https://github.com/square/retrofit/tree/master/retrofit-converters/scalars) that makes it really easy. You just need to add it to your Retrofit builder and you are good to go.
 
 {% highlight java linenos %}
 interface Service {
@@ -37,7 +38,8 @@ interface Service {
 // Use it in your Retrofit  builder
 Retrofit retrofit = new Retrofit.Builder()
         .baseUrl(server.url("/"))
-        .addConverterFactory(new ToStringConverterFactory())
+        .addConverterFactory(GsonConverterFactory.create()) // This is to use GSON for JSON
+        .addConverterFactory(ScalarsConverterFactory.create()) // This gets your String
         .build();
 Service example = retrofit.create(Service.class);
 
