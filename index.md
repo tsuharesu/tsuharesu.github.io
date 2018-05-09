@@ -29,6 +29,11 @@ I use it everywhere. Pretty handy, eh? My real name is Thales.
 * [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
+## Apps I've worked on
+{% for project in site.data.professional -%}
+* [{{ project.name }}]({{ project.url }})
+{% endfor %}
+
 ## Personal projects
 {% for project in site.data.projects -%}
 * [{{ project.name }}]({{ project.url }})
