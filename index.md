@@ -23,6 +23,7 @@ Oh, this is an old RPG character that I created and since no one else IN THE WOR
 I use it everywhere. Pretty handy, eh? My real name is Thales.
 
 ## Development posts
+* [Mimic GCM messages for faster development - Medium](https://medium.com/@tsuharesu/mimic-gcm-messages-for-faster-development-faadef42eb79)
 * [ViewBinder for Android in
   Kotlin - Medium](https://medium.com/making-internets/viewbinder-for-android-in-kotlin-abbeae67fab3#.je8w00qx3)
 {% for post in site.categories.dev -%}
