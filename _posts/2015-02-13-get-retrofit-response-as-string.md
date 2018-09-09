@@ -9,45 +9,41 @@ Since I first created this post Retrofit and OkHttp have changed a lot. Now in v
 ### Method 1
 Get the String straight from the response body. Clean and easy:
 
-{% highlight java linenos %}
-interface Service {
-    @GET("/") Call<ResponseBody> getBody();
-}
+    interface Service {
+        @GET("/") Call<ResponseBody> getBody();
+    }
 
-// Nothing to add in your builder
-Retrofit retrofit = new Retrofit.Builder()  
-        .baseUrl(server.url("/"))
-        .build();
-Service example = retrofit.create(Service.class);
+    // Nothing to add in your builder
+    Retrofit retrofit = new Retrofit.Builder()  
+            .baseUrl(server.url("/"))
+            .build();
+    Service example = retrofit.create(Service.class);
 
-// get your response, sync or async
-Response<ResponseBody> response = example.getBody().execute();
-// get the damn string!
-response.body().string()
-{% endhighlight %}
+    // get your response, sync or async
+    Response<ResponseBody> response = example.getBody().execute();
+    // get the damn string!
+    response.body().string()
 
 ### Method 2 (preferred)
 
 Retrofit launched a [`ScalarConverter`](https://github.com/square/retrofit/tree/master/retrofit-converters/scalars) that makes it really easy. You just need to add it to your Retrofit builder and you are good to go.
 
-{% highlight java linenos %}
-interface Service {
-    @GET("/") Call<String> getString();
-}
+    interface Service {
+        @GET("/") Call<String> getString();
+    }
 
-// Use it in your Retrofit  builder
-Retrofit retrofit = new Retrofit.Builder()
-        .baseUrl(server.url("/"))
-        .addConverterFactory(GsonConverterFactory.create()) // This is to use GSON for JSON
-        .addConverterFactory(ScalarsConverterFactory.create()) // This gets your String
-        .build();
-Service example = retrofit.create(Service.class);
+    // Use it in your Retrofit  builder
+    Retrofit retrofit = new Retrofit.Builder()
+            .baseUrl(server.url("/"))
+            .addConverterFactory(GsonConverterFactory.create()) // This is to use GSON for JSON
+            .addConverterFactory(ScalarsConverterFactory.create()) // This gets your String
+            .build();
+    Service example = retrofit.create(Service.class);
 
-// get your response, sync or async, already as a String
-Response<String> response = example.getString().execute();
-// get the body
-response.body()
-{% endhighlight %}
+    // get your response, sync or async, already as a String
+    Response<String> response = example.getString().execute();
+    // get the body
+    response.body()
 
 
 Original post (Retrofit 1.9):

@@ -8,13 +8,11 @@ The first thing I learned is that Google uses HSL to generate those colors, not 
 
 On my way to find how to transform from RGB to HSL, I found a way to do it on Java. This is good because sometimes you need to change some color but don't want to define it on xml, or you really don't know which color you will have (like when getting the most prominent color in an image). So, if you need to convert RGB <-> HSL, Android has you covered ([source](http://stackoverflow.com/a/4928826)):
 
-{% highlight java %}
-float[] hsv = new float[3];
-int color = getColor();
-Color.colorToHSV(color, hsv);
-hsv[2] *= 0.8f;
-color = Color.HSVToColor(hsv);
-{% endhighlight %}
+    float[] hsv = new float[3];
+    int color = getColor();
+    Color.colorToHSV(color, hsv);
+    hsv[2] *= 0.8f;
+    color = Color.HSVToColor(hsv);
 
 ~~And then at last I found a way to create a palette that you can copy to your colors.xml. It is not perfect but it worked really great for me. Changing the 700 color from XML to Java generated using 0.8 is practically equals. [http://mcg.mbitson.com/#/](http://mcg.mbitson.com/#/)~~
 

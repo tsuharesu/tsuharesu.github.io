@@ -38,7 +38,6 @@ O LastAdapter tem suporte a uma `ObservableList` [6], que é uma lista específi
 Sempre que algo muda no app, eu envio um evento de render para minha Activity com a nova lista do que ela deve mostrar.
 
     fun renderAccounts(newAccountList: List<AccountItem>)
-{: .language-java}
 
 O Epoxy tem um método para Kotlin `withModels` [7] mas ele foi feito para ser usado em listas que não se modificam. Se você colocar esse metódo dentro do render a lista toda é modificada e pisca para mostrar os novos itens. Ou seja, tenho que criar um `TypedEpoxyController` para a lista. Com esse controller criado, aí sim posso fazer `controller.setData(newTransactionList)` . Meu problema é ter que criar mais classes para fazer essas coisas.
 
@@ -84,7 +83,6 @@ Como para essas bibliotecas você cria os objetos que vão ser usados no Android
         ...
         android:onClick="@{() -> item.onClick.invoke()}"
         ... />
-{: .language-kotlin}
 
 ## Fontes
 
