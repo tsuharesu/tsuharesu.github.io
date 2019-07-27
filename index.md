@@ -8,8 +8,7 @@
 
 ## Who am I?
 
-I am developer passionate about mobile and web technologies. Currently I am an Android
-developer at MetaLab, but I also try to keep in touch with backend technologies.
+I am developer passionate about mobile and web technologies. Currently I am an Android Developer at Simprints in Cambridge.
 
 I have a passion for [movies, shows](https://trakt.tv/users/tsuharesu), animes, [books](https://www.goodreads.com/tsuharesu
 ) and [music](https://www.last.fm/user/tsuharesu)! I also like to catalog and
