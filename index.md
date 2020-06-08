@@ -40,7 +40,7 @@ I use it everywhere. Pretty handy, eh? My real name is Thales.
 * [{{ project.name }}]({{ project.url }})
 {% endfor %}
 
-## About life posts (mostly in pt-br)
+## About life posts
 {% for post in site.categories.personal -%}
 * [{{ post.title }}]({{ post.url }})
 {% endfor %}
