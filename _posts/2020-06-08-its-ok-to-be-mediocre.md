@@ -62,5 +62,5 @@ The world is full of mediocre hard-working people. They make the cogs of the wor
 Let's be kinder to ourselves and understand how hard we worked to arrive where we are now. Your whole life doesn't need to be an uphill battle forever. Battle a little, rest a little. Getting 3/5 means that you did exactly what you needed to do, so congratulate yourself. Enjoy your mediocrity.
 
 > Thank you, my editor, Ashley, for reviewing this article.  
-> If you want to understand more about being a perfectionist from a personality point of view, I would suggest this article: [The Perfectionism and the Turbulent Identity](https://www.16personalities.com/articles/the-perfectionism-and-the-turbulent-identity).
+> If you want to understand more about being a perfectionist from a personality point of view, I would suggest this article: [The Perfectionism and the Turbulent Identity](https://www.16personalities.com/articles/the-perfectionism-and-the-turbulent-identity).  
 > There is a really nice video that I watched the other day from The School of Life called [Why You Don't Need to Be Exceptional](https://youtu.be/pvgfucVF5cU)
