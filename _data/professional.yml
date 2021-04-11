@@ -1,8 +1,10 @@
-- name: Flow Tasks
-  url: https://play.google.com/store/apps/details?id=com.getflow.tasks
-- name: ZOZI Advance
-  url: https://play.google.com/store/apps/details?id=com.zozi.advance
+- name: Simprints ID
+  url: https://play.google.com/store/apps/details?id=com.simprints.id
+- name: Kinzoo
+  url: https://play.google.com/store/apps/details?id=com.kinzoo.android
 - name: Lonely Planet Guides
   url: https://play.google.com/store/apps/details?id=com.lonelyplanet.guides
 - name: EagleView
   url: https://play.google.com/store/apps/details?id=com.eagleview.mobile
+- name: Flow Tasks
+  url: https://play.google.com/store/apps/details?id=com.getflow.tasks
