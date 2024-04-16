@@ -1,5 +1,5 @@
-- name: Monet (Android app)
-  url: https://play.google.com/store/apps/details?id=com.tsuharesu.expensemanager
+- name: Monet Expense Manager (React + Vite + Firebase)
+  url: https://monet.tsuharesu.com
 - name: Game Dev Story Help (Android app)
   url: https://play.google.com/store/apps/details?id=br.com.tsuharesu.gamedevstoryhelp.free
 - name: expect-kt (kotlin test expectation library - archived)
