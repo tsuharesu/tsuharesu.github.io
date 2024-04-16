@@ -1,11 +1,9 @@
-- name: twitter
+- name: twitter (unused)
   url: https://twitter.com/tsuharesu
 - name: github
   url: https://github.com/tsuharesu
-- name: medium
+- name: medium (unused)
   url: https://medium.com/@tsuharesu
-- name: tumblr (pt-br)
-  url: http://tsuharesu.tumblr.com
 - name: linkedin
   url: https://www.linkedin.com/in/thalesphelipe
 - name: stack overflow
